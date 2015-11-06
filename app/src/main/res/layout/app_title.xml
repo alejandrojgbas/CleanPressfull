@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03e1ed">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Cleanpress"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/mytext"
+        android:paddingRight="50dp"
+        />
+</FrameLayout>

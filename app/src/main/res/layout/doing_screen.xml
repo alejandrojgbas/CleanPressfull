@@ -1,0 +1,273 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Tracking Layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#fff"
+            android:id="@+id/trackingLayout"
+            android:visibility="visible"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#FFF"
+                android:text="Tracking"
+                android:textSize="25dp"
+                android:textColor="#03E1ED"
+                android:gravity="center"
+                android:id="@+id/titleTracking"
+                />
+
+            <!--Request Pickup Layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cocnao"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:background="@drawable/circle_request"
+                    android:text="Request Pickup"
+                    android:textSize="25dp"
+                    android:textColor="#FFF"
+                    android:onClick="requestPick"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    />
+            </LinearLayout>
+
+            <!--ProgressBar Layout-->
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:background="#fff"
+                android:visibility="visible"
+                tools:context=".MyOrders"
+                android:id="@+id/progressLayout">
+
+            <include layout="@layout/layout_cell"
+                android:id="@+id/circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <!--Info Layout-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="#fff"
+                android:id="@+id/infoLayout"
+                >
+
+                <!-- Horizontal line for driver info.. -->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#3e3e2e39"
+                    android:layout_marginBottom="10dp"
+                    /><!--End line horizontal.. -->
+
+                <!--Driver info-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/driverLay"
+                    >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="70dp"
+                        android:id="@+id/driverpic"/>
+
+                    <TextView
+                        style="@style/TextViewsSchedule"
+                        android:text=""
+                        android:id="@+id/driverName"
+                        android:textStyle="bold"
+                        android:layout_marginTop="45dp"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="-40dp"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+                <!-- Horizontal line for info.. -->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#3e3e2e39"
+                    android:layout_marginTop="10dp"
+                    /> <!--End line horizontal.. -->
+
+                <!-- Date and time.. -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/containerDateTime"
+                    android:orientation="horizontal"
+                    >
+
+                    <!-- Right.. -->
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="205dp"
+                        android:id="@+id/containerDateTimeLeft"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pickup Time"
+                            android:textSize="18dp"
+                            android:textColor="#03E1ED"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:drawableTop="@drawable/clock"
+                            android:id="@+id/titlePick"
+                            />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:id="@+id/day_pick"
+                            />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/date_pick" />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/hour_pick"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/Address_pick"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"/>
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/deli_city" />
+
+                    </LinearLayout> <!-- End right.. -->
+
+                    <!-- Line vertical.. -->
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:background="#3e3e2e39"
+                        /> <!--End line vertical.. -->
+
+                    <!-- left.. -->
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="205dp"
+                        android:id="@+id/containerDateTimeRight"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery Time"
+                            android:textSize="18dp"
+                            android:textColor="#03E1ED"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="0dp"
+                            android:drawableTop="@drawable/clock"
+                            android:id="@+id/titleDeli"
+                            />
+
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:layout_marginTop="10dp"
+                            android:text=""
+                            android:id="@+id/day_deliv"
+                            />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/date_deliv" />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/hour_deliv"
+                            android:textStyle="bold"/>
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:id="@+id/Address_deliv"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            />
+                        <TextView
+                            style="@style/TextViewsSchedule"
+                            android:text=""
+                            android:id="@+id/pick_city" />
+
+                    </LinearLayout> <!-- End left.. -->
+
+                </LinearLayout> <!-- End date and time.. -->
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/address_button"
+                    android:id="@+id/Feedback"
+                    android:text="Cancel Pickup"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAllCaps="false"
+                    android:textColor="#afafaf"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+

@@ -1,0 +1,65 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="cleanpress.cleanpress.Feedback"
+    android:background="#fff"
+    android:id="@+id/linearLayout"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/review_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:text=""
+            android:inputType="textMultiLine"
+            android:hint="Enter Review">
+
+        </EditText>
+
+        <Button
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_sub_review"
+            android:enabled="false"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:onClick="sendReview"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/address_button"
+            android:text="Submit Review"
+            android:textColor="#afafaf" />
+
+        <Button
+            style="@style/TextViewsWithBackColorNoArrow"
+            android:id="@+id/my_review"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="10dp"
+            android:text="My Reviews"
+            android:onClick="myReview"
+            />
+
+        <ListView
+            android:id="@+id/list_review"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="10dp"
+            android:stackFromBottom="true"
+            />
+    </LinearLayout>
+
+</ScrollView>

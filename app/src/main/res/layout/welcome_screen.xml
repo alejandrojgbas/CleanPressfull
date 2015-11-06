@@ -1,0 +1,111 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_welcome_tut4"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cleanpress.cleanpress.WelcomeScreen"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/Layout"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_open"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tutorialPages"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tut1"
+            android:onClick="showPage"
+            android:checked="true"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tut2"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tut3"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="#fff"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tut4"
+            android:onClick="showPage"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="#fff"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#03e1ed"
+        android:id="@+id/Login"
+        android:onClick="Login"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="#04a7d6"
+        android:id="@+id/Sign"
+        android:onClick="Sign"
+        />
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:text="Log In with Facebook"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/fb_icon"
+        android:paddingLeft="65dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="8dp"
+        android:background="#3b5998"
+        android:textColor="#fff"
+        android:id="@+id/FBLogin"
+        android:onClick="LogFB"
+        />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03e1ed"
+    >
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="cleanpress.cleanpress.MenuScreen">
+
+    <TextView
+        android:text="Orders"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/cesta"
+        android:id="@+id/t1"
+        android:onClick="toOrders"
+        />
+    <TextView
+        android:text="Profile"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/profile"
+        android:id="@+id/t2"
+        android:onClick="toProfile"
+        />
+    <TextView
+        android:text="Prices"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/prices"
+        android:id="@+id/t3"
+        android:onClick="toPrices"
+        />
+    <TextView
+        android:text="Support"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/support_icon"
+        android:id="@+id/t4"
+        android:onClick="toSupport"
+        />
+    <TextView
+        android:text="Feedback"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/feedback"
+        android:id="@+id/t5"
+        android:onClick="toFeedback"
+        />
+    <TextView
+        android:text="About"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/about"
+        android:id="@+id/t6"
+        android:onClick="toAbout"
+        />
+    <TextView
+        android:text="Log out"
+        style="@style/MenuItems"
+        android:drawableLeft="@drawable/logout"
+        android:id="@+id/t7"
+        android:onClick="logOut"
+        />
+</LinearLayout>
+</ScrollView>

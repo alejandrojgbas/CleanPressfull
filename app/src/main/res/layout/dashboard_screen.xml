@@ -1,0 +1,70 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="cleanpress.cleanpress.Dashboard">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="285dp"
+        android:background="@drawable/dashboard__1"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="right"
+            android:textColor="#444444"
+            android:id="@+id/username"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:text="@string/dash_title"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:onClick="showDash"
+            android:id="@+id/toDash"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:background="#aa000000"
+            android:textSize="20dp"
+            android:layout_marginTop="195dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="285dp"
+        android:background="@drawable/dashboard__2"
+        >
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#7fdfeb"
+            />
+
+        <Button
+            android:text="@string/RequestPick"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="195dp"
+            android:textSize="20dp"
+            android:onClick="Schedule"
+            android:textColor="#444"
+            android:textAllCaps="false"
+            android:background="#aaffffff"
+            android:id="@+id/toRequest"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>

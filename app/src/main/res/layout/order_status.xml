@@ -1,0 +1,347 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#fff"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="#FFF"
+            android:text="Status"
+            android:textSize="22sp"
+            android:textColor="#03E1ED"
+            android:gravity="center"
+            android:id="@+id/titleStatus"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Order Details"
+            android:layout_marginTop="0dp"
+            android:background="#03e1ed"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/titleOrder"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:background="#FFF"
+            android:hint="Order Number"
+            android:textSize="20dp"
+            android:textColor="#afafaf"
+            android:gravity="center"
+            android:id="@+id/orderNumber"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/washLayout">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="30dp"
+                android:background="#FFF"
+                android:text="Wash &amp; Fold"
+                android:textSize="20sp"
+                android:textColor="#afafaf"
+                android:id="@+id/textWash"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="4.5dp"
+                    android:src="@drawable/status_red_circle"
+                    />
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:hint="0"
+                    android:textColorHint="#fff"
+                    android:id="@+id/bagsIcon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:text="Bags"
+                android:textSize="15sp"
+                android:textColor="#03e1ed"
+                android:gravity="left"
+                android:id="@+id/textBags"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:hint="$0.00"
+                android:textSize="20sp"
+                android:textColor="#ff7fe68b"
+                android:textColorHint="#ff7fe68b"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                android:maxLines="1"
+                android:id="@+id/priceWash"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#afafaf"
+            android:layout_marginTop="0dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/dryLayout">
+
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:background="#FFF"
+                android:text="Dry Cleaning"
+                android:textSize="20dp"
+                android:textColor="#afafaf"
+                android:gravity="left"
+                android:id="@+id/textDry"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="4.5dp"
+                    android:src="@drawable/status_red_circle"
+                    />
+                <TextView
+                    android:textColor="#fff"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:hint="0"
+                    android:textColorHint="#fff"
+                    android:id="@+id/bagsIcon2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/show"
+                android:clickable="true"/>
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:hint="$0.00"
+                android:textSize="20sp"
+                android:textColor="#ff7fe68b"
+                android:gravity="right"
+                android:textColorHint="#ff7fe68b"
+                android:layout_marginLeft="52dp"
+                android:maxLines="1"
+                android:id="@+id/priceDry"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#afafaf"
+            android:layout_marginTop="8dp"
+            />
+
+        <ListView
+            android:id="@+id/list_status"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:divider="#b5b5b5"
+            android:dividerHeight="1dp"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/feeLayout">
+
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:background="#FFF"
+                android:text="Delivery fee"
+                android:textSize="20dp"
+                android:textColor="#afafaf"
+                android:gravity="left"
+                android:id="@+id/textFee"
+                />
+
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:hint="$0,00"
+                android:textSize="20sp"
+                android:textColor="#ff7fe68b"
+                android:textColorHint="#ff7fe68b"
+                android:gravity="right"
+                android:layout_marginLeft="128dp"
+                android:id="@+id/priceFee"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#afafaf"
+            android:layout_marginTop="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/subLayout">
+
+            <TextView
+
+                android:layout_width="170dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:text="Subtotal:..................."
+                android:textSize="18sp"
+                android:textColor="#afafaf"
+                android:gravity="right"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/textSub"
+                />
+
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:hint="$0.00"
+                android:textSize="20sp"
+                android:textColor="#afafaf"
+                android:gravity="right"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/priceSub"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/totalLayout">
+
+            <TextView
+
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:text="Total:..................."
+                android:textSize="20sp"
+                android:textColor="#ff7fe68b"
+                android:gravity="right"
+                android:layout_marginLeft="120dp"
+                android:textStyle="bold"
+                android:id="@+id/textTotal"
+                />
+
+
+            <TextView
+
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="#FFF"
+                android:hint="$0.00"
+                android:textSize="20sp"
+                android:textColor="#ff7fe68b"
+                android:textColorHint="#ff7fe68b"
+                android:gravity="right"
+                android:layout_marginLeft="7dp"
+                android:textStyle="bold"
+                android:id="@+id/priceTotal"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:id="@+id/buttonBack"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:background="#ff158ed3"
+            android:text="Go Back"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

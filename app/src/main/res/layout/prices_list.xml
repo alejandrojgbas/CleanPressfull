@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scroll"
+    android:background="#fff"
+    tools:context="cleanpress.cleanpress.Prices" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:paddingTop="75dp"
+        android:background="@drawable/prices__wash__fold"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#66000000"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="Wash &amp; Fold"
+            android:textSize="25sp"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="$1.50 (per lb.)"
+            android:textSize="22sp"
+            android:textColor="#7fe68b"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:id="@+id/price_title"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="@string/wash_fold"
+            android:id="@+id/textWash"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#fff" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#7fdfeb"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Dry Cleaning"
+        android:textSize="20sp"
+        android:textColor="#666"
+        android:gravity="center"
+        android:id="@+id/dry_clean"
+        />
+
+    <View android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#7fdfeb"/>
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="981dp"
+        android:id="@+id/price_list"
+        android:isScrollContainer="false"
+        android:dividerHeight="1dp"
+        android:divider="#fff"
+        >
+
+    </ListView>
+
+</LinearLayout>
+</ScrollView>

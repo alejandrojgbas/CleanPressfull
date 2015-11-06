@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:id="@+id/l1"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.999">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/torder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7fe68b"
+                    android:textSize="18sp"
+                    android:hint="Order Number"
+                    android:textColorHint="#7fe68b"
+                    android:layout_marginBottom="5dp"/>
+
+
+                <TextView
+                    android:id="@+id/ttitlePick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#444"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Pickup Time"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/taddressPick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Pickup Address"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tcityPick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="City"
+                        android:textColor="#999"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tdayPick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Day"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tdatePick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Date"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tdashPick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:text="-"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/ttimePick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Time"
+                        android:textStyle="bold"
+                        android:textColor="#444"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/tdeliLayout"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/ttitleDeli"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#444"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Delivery Time"
+                    android:visibility="visible"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/taddressDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Pickup Address"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tcityDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="City"
+                        android:textColor="#999"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tdayDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Day"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tdateDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Date"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/tdashDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:text="-"
+                        android:textColor="#999"/>
+
+                    <TextView
+                        android:id="@+id/ttimeDeli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp"
+                        android:hint="Time"
+                        android:textStyle="bold"
+                        android:textColor="#444"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:id="@+id/showmoreblue"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:padding="16dp"
+        android:id="@+id/buttonsLayout"
+            android:visibility="gone">
+
+
+            <Button
+            android:layout_width="0dp"
+                android:layout_weight="0.3"
+            android:layout_height="30dp"
+            android:background="@drawable/address_button"
+            android:id="@+id/editOrder"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textColor="#afafaf"
+            android:layout_gravity="center"
+                android:clickable="true"
+            />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="30dp"
+                android:background="@drawable/address_button"
+                android:id="@+id/cancelOrder"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="#afafaf"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="#FFF"
+            android:textSize="20dp"
+            android:textColor="#9999"
+            android:gravity="left"
+            android:id="@+id/textGarment"
+            android:layout_marginTop="10dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/tracking_grey_circle"
+                />
+            <TextView
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:hint="0"
+                android:textColorHint="#fff"
+                android:id="@+id/garmentIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:background="#FFF"
+            android:hint="$0.00"
+            android:textSize="20sp"
+            android:textColor="#ff7fe68b"
+            android:textColorHint="#ff7fe68b"
+            android:gravity="right"
+            android:layout_marginLeft="70dp"
+            android:maxLines="1"
+            android:id="@+id/priceGarment"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

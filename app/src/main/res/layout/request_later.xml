@@ -1,0 +1,386 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:id="@+id/scrollLater"
+    tools:context="cleanpress.cleanpress.RequestNowLoc">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <!-- PICK UP ADDRESS LAYOUT -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/pickAddressLay">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:text="Pickup Address"
+                android:gravity="center"
+                android:background="#03e1ed"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:id="@+id/titlePick"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use my current location"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:id="@+id/pickCurrent"
+                android:onClick="currentLocationPick"
+                />
+
+            <EditText
+                style="@style/EditTextSign"
+                android:hint="Address*"
+                android:id="@+id/pick_address"
+                android:inputType="textPostalAddress"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="50dp"
+                    android:hint="Unit/Suite*"
+                    android:id="@+id/pick_unit"
+                    android:inputType="number"
+                    android:textColorHint="#999999"
+                    android:textColor="#444444"
+                    android:textSize="18sp"
+                    android:ems="10"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/white_buttons"
+                    android:layout_marginTop="10dp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="50dp"
+                    android:hint="Zipcode*"
+                    android:textColorHint="#999999"
+                    android:textColor="#444444"
+                    android:textSize="18sp"
+                    android:id="@+id/pick_zip"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:paddingLeft="14dp"
+                    />
+            </LinearLayout>
+            <EditText
+                style="@style/EditTextSign"
+                android:hint="Special Notes"
+                android:id="@+id/pick_special"
+                android:inputType="text"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="40dp"
+                    android:text="This location is my:"
+                    android:gravity="end"
+                    android:textSize="14sp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/spinnerPickText"
+                    />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="40dp"
+                    android:id="@+id/pickSelect_loc"
+                    android:popupBackground="#fff" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- PICK UP HOUR LAYOUT -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/pickHourLay">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Pickup Time"
+                android:layout_marginTop="20dp"
+                android:background="#03e1ed"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/pickTimeTitle"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="40dp"
+                    android:id="@+id/pickDate"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#444444"
+                    android:hint="Select Date"
+                    android:clickable="true"
+                    android:onClick="setPickupDate"
+                    />
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="30dp"
+                    android:background="#444444"/>
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="40dp"
+                    android:id="@+id/pickHour"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#444444"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:id="@+id/pickDay"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#666666"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use same address for delivery"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/useSameAddress"
+                android:onClick="useSameAddress"
+                />
+        </LinearLayout>
+
+        <!-- DELIVERY ADDRESS LAYOUT -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/delivAddressLay"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Delivery Address"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#03e1ed"
+                android:textSize="20sp"
+                android:id="@+id/titleDelivery"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use my current location"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:id="@+id/delivCurrent"
+                android:onClick="currentLocationDeliv"
+                />
+
+            <EditText
+                style="@style/EditTextSign"
+                android:hint="Address*"
+                android:id="@+id/deliv_address"
+                android:inputType="textPostalAddress"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="50dp"
+                    android:hint="Unit/Suite*"
+                    android:id="@+id/deliv_unit"
+                    android:inputType="number"
+                    android:textColorHint="#999999"
+                    android:textColor="#444444"
+                    android:textSize="18sp"
+                    android:ems="10"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/white_buttons"
+                    android:layout_marginTop="10dp"
+                    />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="50dp"
+                    android:hint="Zipcode*"
+                    android:textColorHint="#999999"
+                    android:textColor="#444444"
+                    android:textSize="18sp"
+                    android:id="@+id/deliv_zip"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:paddingLeft="14dp"
+                    />
+            </LinearLayout>
+            <EditText
+                style="@style/EditTextSign"
+                android:hint="Special Notes"
+                android:id="@+id/deliv_special"
+                android:inputType="text"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="40dp"
+                    android:text="This location is my:"
+                    android:gravity="end"
+                    android:textSize="14sp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/delivSpinnerText"
+                    />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="40dp"
+                    android:id="@+id/delivSelect_loc"
+                    android:popupBackground="#fff" />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <!-- DELIVERY HOUR LAYOUT -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/delivHourLay">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Delivery Time"
+                android:layout_marginTop="20dp"
+                android:background="#03e1ed"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/delivHourTitle"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="30dp"
+                    android:id="@+id/delivDate"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#444444"
+                    android:clickable="true"
+                    android:onClick="setDelivDate"
+                    />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="#444444"/>
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="30dp"
+                    android:id="@+id/delivHour"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:id="@+id/delivDay"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#666666"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#c1c2c7"
+            android:visibility="gone"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            android:id="@+id/buttonPlace"
+            android:enabled="false"
+            android:onClick="placeOrderTimed"
+            />
+
+    </LinearLayout>
+</ScrollView>

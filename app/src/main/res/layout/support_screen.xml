@@ -1,0 +1,79 @@
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="cleanpress.cleanpress.Support"
+        android:background="#fff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <Button
+                    android:id="@+id/call_support"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="80dp"
+                    android:background="@drawable/call_button"
+                    android:textColor="#fff"
+                    android:paddingTop="10dp"
+                    android:onClick="call"
+                    android:gravity="center_vertical"
+
+                        android:drawableTop="@drawable/call"
+                    />
+
+                    <Button
+                        android:id="@+id/twitter_support"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="80dp"
+                        android:background="@drawable/tw_button"
+                        android:textAllCaps="false"
+                        android:paddingTop="10dp"
+                        android:drawableTop="@drawable/tw"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="20dp"
+                        android:onClick="openTweet"
+                        />
+
+                    <Button
+                        android:id="@+id/fb_support"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="80dp"
+                        android:background="@drawable/fb_button"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:paddingTop="10dp"
+                        android:drawableTop="@drawable/fb"
+                        android:layout_marginLeft="20dp"
+                        android:onClick="openFB"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    style="@style/TextViewsWithBackColor"
+                    android:id="@+id/show_faqs"
+                    android:layout_marginTop="20dp"
+                    android:text="FAQ's"
+                    android:onClick="showFaqs"
+                    />
+
+
+
+            </LinearLayout>
+
+    </ScrollView>

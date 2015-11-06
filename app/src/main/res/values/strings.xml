@@ -1,0 +1,266 @@
+<resources>
+
+    <string name="app_name">CleanPress</string>
+    <string name="title_activity_order_screen">OrderScreen</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="Tutorial1">Cleanpress will give your clothes a second chance to surprise you. </string>
+    <string name="Tutorial2">Make that suit or dress shine again with our dry cleaning plans. </string>
+    <string name="Tutorial3">Wash and fold will no longer be a problem for you, leave it to us. </string>
+    <string name="Tutorial4">Cleanpress can help you save those extra dollars and give you and your family more time to spend together. </string>
+    <string name="title_activity_login">Login</string>
+    <string name="TTitle">By clicking Create Account, I agree to the</string>
+    <string name="Terms"><b>Terms of Use</b></string>
+    <string name="Conditions">and <b>Privacy Policy</b>.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign">Sign</string>
+    <string name="title_activity_sign_payment">Sign Up</string>
+    <string name="RequestPick"><u>Request Pickup</u></string>
+    <string name="title_section1"><font color="000">Doing</font></string>
+    <string name="title_section2">To do</string>
+    <string name="title_section3">Done</string>
+    <string name="dash_title"><u>        Dashboard        </u></string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_menu_screen">MenuScreen</string>
+    <string name="title_activity_schedule_screen">ScheduleScreen</string>
+    <string name="title_activity_payment_method">PaymentMethod</string>
+    <string name="title_activity_orders">My Orders</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_prices">Prices</string>
+    <string name="title_activity_support">Support</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_terms">Terms &amp; Conditions</string>
+    <string name="title_activity_working_policy">Working Policy</string>
+    <string name="title_activity_request_now_loc">Your Order</string>
+    <string name="title_activity_rquest_now_address">Your Order</string>
+    <string name="title_activity_request_later">Your Order</string>
+    <string name="title_activity_order_status">My Order</string>
+    <string name="faqs1">ajklsgflfgvjklabgknzagjksbajklsbgjklabsgi</string>
+    <string name="faqs2">ajklsgflfgvjklabgknzagjksbajklsbgjklabsgi</string>
+    <string name="faqs3">ajklsgflfgvjklabgknzagjksbajklsbgjklabsgi</string>
+    <string name="about">CleanPress is the cheapest, fastest and most convenient laundry &amp; dry cleaning option in South Florida. You submit your order and we will clean the rest.</string>
+
+
+    <string name="title_1">
+1. CONTRACTUAL RELATIONSHIP.
+        </string>
+<string name="terms_conditions1">
+
+    PLEASE CAREFULLY READ THESE TERMS AND CONDITIONS OF USE BEFORE USING THIS SITE OR ANY OF THE SERVICES AND APPLICATIONS \n\n
+
+
+These terms and conditions (“Agreement”) apply to Clean Press Inc. (“Clean Press”) website (getcleanpress.com) and the related mobile application and/or selected other domains, existing or future, content, products and services (collectively, the “Services”) As used in this Agreement, “Clean Press,” “we,” “us,” or “our” shall mean Clean Press Inc. \n\n
+
+
+By accessing or using our Services, whether or not you register to use the Service, you agree to the terms of this Agreement and to the collection, use and disclosure of your information as set forth in to our Privacy Policy, which establish a contractual relationship between you and Clean Press. This Agreement supersedes prior agreements or arrangements with you. You should review the Agreement before providing us with any information.
+If you do not agree to this Agreement, please do not access or use the Services. \n\n
+
+
+As a condition of this Agreement, you further acknowledge that we may, in our sole discretion, modify this Agreement at any time. All modifications to this Agreement will be effective immediately upon our posting of any modifications on this location. Your continued access or use of the Services after such posting constitutes your consent to be bound by the Agreement, as amended. You affirm that you will review this Agreement periodically, so that you are aware of any and all modifications made to this Agreement. \n\n
+
+
+Supplemental terms may apply to certain Services, such as policies for a particular event, activity or promotion, and such supplemental terms, if any, will be disclosed to you in connection with the applicable Services. Supplemental terms are in addition to, and shall be deemed a part of, the Agreement for the purposes of the applicable Services. Supplemental terms shall prevail over the terms of this Agreement in the event of a conflict with respect to the applicable Services.
+</string>
+
+    <string name="title_2">
+        2. THE SERVICES
+    </string>
+    <string name="terms_conditions2">
+Clean Press is an on-demand laundry and dry cleaning delivery service that enable users to schedule the delivery using Clean Press’s mobile applications or website which is provided as part of the Services (each of the mobile application and the website is an “Application”). After scheduling the reservation using the Application, a third party, which is an independent contractor working with Clean Press (“Third Party Contractor”), will pick up and deliver the user’s laundry. \n\n
+
+OWNERSHIP AND RESTRICTIONS ON USE OF MATERIALS\n\n
+
+The Services, including, but not limited to, the text, content, photographs, images, video, audio, graphics, and any software (including any files or images incorporated in or generated by the software, or any data accompanying the software) available on or through the Services, or contained in the Services (“Materials”) are owned and operated by Clean Press Inc. The Services and the Materials are protected by copyright, trademark, trade dress, domain name, patent, trade secret, international treaties and/or other proprietary rights and laws of the United States and other countries. Except as otherwise indicated in the Services and except for the trademarks, service marks and trade names of other companies that are or may be displayed in the Services, all trademarks, service marks, trade dress and trade names are proprietary to Clean Press Inc.\n\n
+
+By accessing and using the Services, you acknowledge and agree to abide by all applicable intellectual property laws, as well as any additional notices or restrictions contained in this Agreement.\n\n
+
+No Materials from the Services and Applications may be copied, reproduced, republished, uploaded, posted, transmitted or distributed in any way, except that you may download one copy of the Materials on any single computer for your non-commercial use only, provided that you keep intact all copyright and other proprietary notices. Modification of the Materials or unauthorized use of the Materials for any other purpose is a violation of Clean Press’s trademark, copyright, trade dress and other proprietary rights. The use of any such Materials on any other site or networked computer environment is prohibited unless approved in advance and in writing by Clean Press Inc.\n\n
+
+In the event that you download any software from the Services, the software, including any files, images incorporated in or generated by the software, and data accompanying the software (collectively, the “Software”) is non-exclusively licensed to you by Clean Press. Clean Press does not transfer title to the Software to you. Clean Press retains full and complete title to the Software, and all intellectual property rights therein. You shall not redistribute, sell, decompile, reverse engineer, disassemble, or otherwise reduce the Software to a human-perceivable form.
+Nothing contained in the Services should be construed as granting, by implication, estoppel or otherwise, any license or right to use any of the Materials or proprietary content without the express written permission of Clean Press or such other party as may own the proprietary rights.\n\n
+
+LICENSE\n\n
+
+Subject to your compliance with the terms of the Agreement, Clean Press grants you a limited, non- exclusive, non-sublicensable, revocable, non-transferrable license to: (i) access and use the Applications on your personal device solely in connection with your use of the Services; and (ii) access and use any content, information and related Materials that may be made available through the Services, in each case solely for your personal, noncommercial use. Any rights not expressly granted herein are reserved by Clean Press and Clean Press’s licensors.\n\n\n
+
+3. USE OF THE SERVICES\n\n\n
+
+USER REQUIREMENTS AND CONDUCT/USER ACCOUNTS\n
+
+In order to use most aspects of the Services, you must register for and maintain an active personal user Services account (“Account”). You must be at least 13 years of age to obtain an Account. Account registration requires you to submit to Clean Press certain personal information, such as your name, address and mobile phone number, as well as at least one valid credit card. You agree to maintain accurate, complete, and up-to-date information in your Account. Your failure to maintain accurate, complete, and up-to-date Account information, including having an invalid or expired credit card on file, may result in your inability to access and use the Services or Clean Press’s termination of this Agreement with you. You are responsible for all activity that occurs under your Account, and, as such, you agree to maintain the security and secrecy of your Account username and password at all times. Unless otherwise permitted by Clean Press in writing, you may only possess one Account.\n\n
+The Service is not available for use by persons under the age of 13. You may not authorize third parties to use your Account, and you may not allow persons under the age of 13 to use the Services unless they are accompanied by you. You may not assign or otherwise transfer your Account to any other person or entity. You agree to comply with all applicable laws when using the Services, and you may only use the Services for lawful purposes. In certain instances Clean Press or a Third Party Contractor may require you to provide proof of identity to access or use the Services, and you agree that you may be denied access or use of the Services if you refuse to provide proof of identity.\n\n
+
+PROMOTIONAL CODES AND SPECIAL OFFERS\n
+
+Clean Press may, in Clean Press’s sole discretion, create promotional codes that may be redeemed for Account credit or other features or benefits related to a Third Party Contractors, subject to terms that Clean Press may establish on a per promotional code basis (“Promo Codes”).
+You agree that Promo Codes: (i) must be used for the intended audience and purpose, and in a lawful manner; (ii) may not be duplicated, sold or transferred in any manner, or made available to the general public, unless expressly permitted by Clean Press, in advance in writing; (iii) may be disabled by Clean Press at any time for any reason without liability to Clean Press; (iv) are not valid for cash; and (v) may expire prior to your use. Clean Press reserves the right to withhold or deduct credits or other features or benefits obtained through the use of Promo Codes by you or any other user in the event that Clean Press determines or believes that the use or redemption of the Promo Code was in error, fraudulent, illegal, or in violation of the applicable Promo Code terms or these Terms.\n\n
+
+MINIMUM PRICE ORDER\n
+
+The minimum order price is as cited on Clean Press’s Services and may change from time to time.\n\n
+
+NETWORK ACCESS AND DEVICES\n
+
+You are responsible for obtaining the data network access necessary to use the Services. Your mobile network’s data and messaging rates and fees may apply if you access or use the Services from a wireless- enabled device. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use the Services and Applications and any updates thereto. Clean Press does not guarantee that the Services, or any portion thereof, will function on any particular hardware or devices. In addition, the Services may be subject to malfunctions and delays inherent in the use of the Internet and electronic communications.\n\n
+
+DAMAGED OR LOST ITEMS\n
+It is our priority to supply the best care to your garment and we appreciate your trust.\n\n
+
+Damaged Items\n
+Although we are doing our best to prevent any damages to your garment, we cannot guarantee against color loss, bleeding or shrinkage of garments. In addition, we do not take responsibility for any deteriorated or flawed garments, which could result in small holes or tears. For any items deemed damaged, whether Clean Press may reimburse you by paying up to ten (10) times the charge for cleaning the item in which the damage occurred regardless of brand, price or condition of the garment.\n\n
+
+TEXT MESSAGES\n
+
+By creating an Account, you agree that the Services may send you informational text (SMS) messages as
+￼part of the normal business operation of your use of the Services. You may opt-out of receiving text (SMS)
+￼messages from Clean Press at any time by sending a request to contact@getcleanpress.com. You
+￼acknowledge that opting out of receiving text (SMS) messages may impact your use of the Services.\n\n
+Any damaged items must be reported to contact@getcleanpress.com and inspected by Clean Press, within seven (7) days from date the damaged item was returned to you by Clean Press, through digital photos or in-person.\n\n
+
+Lost Items\n
+Any lost item must be reported within seven (7) days of the delivery of the garments to contact@getcleanpress.com. All claims are reviewed on a case-by-case basis. Items are considered lost twenty (20) days after the initial claim has been made. Any reimbursement for an item deemed lost by Clean Press shall be limited to and shall not exceed ten (10) times the charge for cleaning the lost item regardless of brand, price or condition of the garment. Clean Press does not take responsibility for any loose items lost when submitted in a Clean Press bag, such as watches, jewelry, cufflinks, etc.\n\n
+
+PICK UP AND DELIVERY \n
+You can edit the time of a pickup or delivery up to one hour before the requested time. If you cancel the order within one hour of your delivery we may charge a cancellation fee in a reasonable amount. We hope to provide a convenient service to all our customers and can leave orders outside residences or with a doorman, provided the customer gives written consent. However, once delivery has been made, we will not be held responsible or liable for the loss or damage of any items. It is the customer’s sole responsibility to ensure the safety of items after delivery by Clean Press.
+You have an option to ask us to leave your laundry with the doormen or other location, but Clean Press will not be responsible for any lost cause as a result.\n\n
+
+INVENTORY \n
+Clean Press reserves the right to keep records of your garments and retain, store, display or reproduce such records which may include images or photographs, and associate such records with your name or other profile information for commercially reasonable periods for archival, inventory purposes, quality control, loss prevention, and or data collection. \n\n
+
+USER CONTENT AND INTERACTIVE AREAS \n
+We may provide interactive opportunities in the Services, including, without limitation, user ratings and reviews, saved favorites and saved instructions, (collectively, “Interactive Areas”) for the enjoyment of our users. \n\n
+
+You represent and warrant that you are the owner or otherwise have the right to provide any information, comments, reviews, ratings or other materials or content submitted, posted or otherwise transmitted to the Services (“User Content”). In addition, in consideration of the Services accepting User Content, you hereby grant to Clean Press an irrevocable, transferable, paid up, royalty-free, perpetual, non-exclusive worldwide sub-licensable license to use, copy, print, display, modify, edit, remove, publicly perform, translate and create derivative works from and distribute or otherwise use and reproduce User Content on the Services and in all forms of media now known or hereafter invented, including but not limited to such uses as on and in the Services throughout the world in all forms of media now known or hereafter invented in perpetuity (collectively, the “Uses”) and the right to, in Clean Press’s sole option and discretion, attribute such User Content to the user submitting the User Content. In consideration of submitting User Content, you consent to the Uses of the User Content without further consideration, compensation, attribution, notification or other additional consideration and to Clean Press’s disclosure of any information related to your use of the Services in any capacity in connection with Clean Press’s display of your User Content on the Services. You also agree to indemnify and hold Clean Press harmless from any claim or demand, including reasonable attorneys’ fees, made by any party arising out of the Uses of the User Content that you submit on our Services. You waive any rights you may have in having the User Content edited, altered or changed in any manner not acceptable to you. \n\n
+
+Some submissions or postings by users to certain parts of the Services, including, without limitation, Interactive Areas, will be public and posted in public areas on our Services. Clean Press and any contract or operational providers that conduct, operate and/or manage any portion of the Services will not be responsible for the action of any users or third parties with respect to any information, materials or content posted, uploaded or transmitted on the Services. \n\n
+
+By participating in any of the aforementioned activities, all users agree to follow the Services standards of conduct. Clean Press reserves the right to change, delete or remove, in part or in full, any postings in Interactive Areas and to terminate or suspend access to such areas of the Services for conduct that we believe, in our sole discretion, interferes with other peoples’ enjoyment of our Services. Clean Press will also cooperate with local, state and/or federal authorities to comply with applicable law. \n\n
+
+NO UNLAWFUL OR PROHIBITED USE/MONITORING OF SERVICES \n
+By using and accessing the Services, you agree that you will not use the Services for any unlawful purpose or engage in any use prohibited by this Agreement. You further agree that you will not use the Services in any manner that could damage, disable, overburden or impair any Clean Press server, or the network(s) connected to any Clean Press server, or interfere with any other party’s use and enjoyment of the Services. You may not attempt, through any means, to gain unauthorized access to any part of the Services, other account, computer system or network connected to any Clean Press server. Clean Press reserves the right, in its sole discretion, to monitor any and all use of the Services. \n\n
+
+VIOLATIONS OF THE AGREEMENT\n
+Clean Press reserves the right to seek all remedies available at law and in equity for violations of the Agreement, including the right to block access from a particular Internet address to the Services.\n\n\n
+
+
+4. PAYMENT\n\n\n
+You understand that use of the Services may result in payments by you for the services you receive (“Charges”). After you have received the full service obtained through your use of the Service and Applications, Clean Press will process payment of the applicable Charges, using the preferred payment method designated in your Account, and will send you a receipt by email.\n\n
+
+Charges will be inclusive of applicable taxes where required by law. Charges paid by you are final and non-refundable, unless otherwise determined by Clean Press. Any request for lower Charges or disagreement with the Charges should be addressed to Clean Press by contacting contact@getcleanpress.com.
+If your primary Account payment method is determined to be expired, invalid or otherwise not able to be charged, you agree that Clean Press may use a secondary payment method in your Account, if available.\n
+Clean Press reserves the right to establish, remove and/or revise Charges for any or all aspects of the Services at any time in Clean Press’s sole discretion.
+Clean Press may from time to time provide certain users with promotional offers and discounts that may result in different Charges for the same or similar Services, and you agree that such promotional offers and discounts, unless also made available to you, shall have no bearing on your use of the Services or the Charges applied to you. \n\n\n
+        5. DISCLAIMERS, LIMITATIONS OF LIABILITY, INDEMNITY
+DISCLAIMER \n\n\n
+
+THE MATERIALS AND THE SERVICES ARE PROVIDED “AS IS” AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, CLEAN PRESS AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS OR REPRESENTATIVES DISCLAIM WITH RESPECT TO THE SERVICES AND THE MATERIALS HEREIN ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IT IS STILL THE USER RESPOSIBILITY TO CAREFUL READ AND INSPECT ANY SERVICE OR PRODUCT YOU PURCHASE THROUGH OUR APPLICATIONS UPON YOUR RECEIPT TO DETERMINE SAEFTY AND APPRORPIATENESS FOR YOUR CONSUMPTION OR USE. CLEAN PRESS DOES NOT REPRESENT OR WARRANT THAT THE FUNCTIONS CONTAINED IN THE MATERIALS WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE SERVICES OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. CLEAN PRESS DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE MATERIALS AND/OR THE SERVICES IN TERMS OF THEIR CORRECTNESS, ACCURACY, RELIABILITY, TIMELINESS, COMPLETENESS, CURRENTNESS, OR OTHERWISE. YOU (AND NOT CLEAN PRESS) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION. APPLICABLE LAW MAY NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. \n\n
+
+LIMITATION OF LIABILITY \n
+Under no circumstances, including, but not limited to, negligence, shall Clean Press or its officers, directors, employees, agents or representatives be liable to you or any third party for any special, consequential, incidental, direct, indirect, or punitive damages or any other loss or injury that result from the use of, or the inability to use, the Services or the Materials, even if Clean Press or a Clean Press authorized representative has been advised of the possibility of such damages. In no event shall Clean Press have any liability for any damages, losses and other causes of action (whether in contract, tort (including, but not limited to, negligence), or otherwise for accessing or using the Services or engaging the services of or purchasing product(s) of a third party through or after accessing the Services. \n\n
+
+These limitations do not purport to limit liability that cannot be excluded under the law in the jurisdiction of this Agreement. \n\n
+
+USE OF LINKS \n
+The Services may contain links to other websites and services which are developed, sponsored and/or maintained by third parties. Clean Press does not review, monitor, operate or control any such third party website/services accessible through these links, and is not responsible for the content available on or through such third party websites/services. By providing access to the linked websites/services, Clean Press is not recommending or endorsing the products or services provided by the sponsor or owner of those websites/services. Clean Press makes no guarantees, representations or warranties as to, and shall have no liability for, any electronic content delivered by any third party, including, without limitation, the accuracy or subject matter of any electronic content, or the use of any personal information you provide to any such website/services. You acknowledge and agree that use of such links is entirely at your own risk. Clean Press reserves the right to discontinue links to any other website at any time and for any reason. \n\n
+
+INDEMNITY \n
+You agree to indemnify and hold Clean Press and its officers, directors, employees and agents, harmless from any and all claims, demands, losses, liabilities, and expenses (including attorneys’ fees), arising out of or in connection with: (i) your use of the Services; (ii) your breach or violation of any of this Agreement; (iii) Clean Press’s use of your User Content; or (iv) your violation of the rights of any third party, including Third Party Contractors. \n\n\n
+
+
+6. MISCELLANEOUS \n\n\n
+
+
+GOVERNING LAW \n
+You acknowledge and agree that your access to and use of the Services is subject to all applicable international, federal, state and local laws and regulations. The terms, conditions and policies contained in this Agreement shall be governed by and construed in accordance with the laws of the State of Florida, without regard to any principles of conflicts of law, and all claims, disputes or disagreements which may arise out of the interpretation, performance or in any way relating to your use of the Services, shall be submitted exclusively to the jurisdiction of the State or federal courts located in the County and State of Florida. You acknowledge and agree that you will irrevocably consent and submit to the exclusive personal jurisdiction of those courts for the purpose of litigating any such action; and you will irrevocably waive any jurisdictional, venue or inconvenient forum objections to such court. Any waiver by Clean Press of any provision of this Agreement must be in writing. \n\n
+
+NOTICE \n
+Clean Press may give notice by means of a general notice on the Services, electronic mail to your email address in your Account, or by written communication sent by first class mail or pre-paid post to your address in your Account. Such notice shall be deemed to have been given upon the expiration of 48 hours after mailing or posting (if sent by first class mail or pre-paid post) or 12 hours after sending (if sent by email). You may give notice to Clean Press, with such notice deemed given when received by Clean Press, at any time by first class mail or pre-paid post to 2853 Executive Park Dr Suite 201 Weston, FL 33331. \n\n
+
+GENERAL \n
+You may not assign these Terms without Clean Press’s prior written approval. Clean Press may assign this Agreement without your consent to: (i) a subsidiary or affiliate; (ii) an acquirer of Clean Press’s equity, business or assets; or (iii) a successor by merger. Any purported assignment in violation of this section shall be void. No joint venture, partnership, employment, or agency relationship exists between you, Clean Press or any Third Party Contractor as a result of this Agreement or use of the Services. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall be enforced to the fullest extent under law. Our failure to enforce any right or provision in this Agreement shall not constitute a waiver of such right or provision unless acknowledged and agreed to by Clean Press in writing. \n\n
+
+PROCEDURE FOR MAKING COPYRIGHT INFRINGEMENT CLAIMS \n
+Clean Press respects the intellectual property of others, and we ask all of our users to do the same. If you believe that your copyrighted work has been copied and is accessible on the Services or Application through which our services may be accessed in a way that constitutes copyright infringement, please provide Clean Press’s Copyright Agent with the following information required by the Online Copyright Infringement Liability Limitation Act of the Digital Millennium Copyright Act, 17 U.S.C. 512: \n\n
+
+1. A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; 2. Identification of the copyright work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that Service; 3. Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material, e.g., the specific web page address on the Sites; 4. Information reasonably sufficient to permit us to contact the complaining party; 5. A statement that the complaining party has a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and 6. A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is
+allegedly infringed. \n
+
+For copyright inquiries under the Digital Millennium Copyright Act, please contact us: contact@getcleanpress.com.</string>
+
+    <string name="workingPolicy">
+
+        We, at Clean Press Inc. (\"Clean Press\"), are always committed to protecting your privacy and encourage you to read and learn more about the terms of our privacy policy (\"Privacy Policy\"). By visiting Clean Press\'s online website (collectively, including all content and functionality available through the www.getcleanpress.com domain name, the \"Site\"), or mobile application (the \"App\"), submitting information or using any of our services (the \"Service\"), you (the terms \"you\", \"your\" and \"yours,\" shall refer to any and all users of this Site (the \"User\") acknowledge that you accept the practices and policies outlined in this Privacy Policy. Terms not defined herein shall have the meaning as provided in Clean Press\'s Terms of Service, found at http://www.getcleanpress.com/termsofservice, and incorporated herein.
+
+        \n\n
+WE MAY MODIFY THIS PRIVACY POLICY AT ANY TIME, IN OUR SOLE DISCRETION, AND SUCH MODIFICATION SHALL BE EFFECTIVE IMMEDIATELY UPON EITHER POSTING OF THE MODIFIED PRIVACY POLICY ON THE SITE, ON THE APP, OR NOTIFYING YOU. Use of information we collect now is subject to the Privacy Policy in effect at the time such information is collected. AGREE TO REVIEW THIS PRIVACY POLICY PERIODICALLY TO ENSURE THAT YOU ARE AWARE OF ANY MODIFICATIONS. YOUR CONTINUED ACCESS OR USE OF THE SITE AND/OR THE APP SHALL BE DEEMED YOUR CONCLUSIVE ACCEPTANCE OF THE MODIFIED PRIVACY POLICY.\n\n
+
+This Privacy Policy is effective as of 07/01/2015.\n\n
+
+Information Covered in This Privacy Policy This Privacy Policy covers Clean Press\'s treatment of Personal Information (as defined herein) that Clean Press gathers when you are accessing the Site and/or APP and when you use any part of the Service. This Privacy Policy also covers Clean Press\'s business partners share with Clean Press. This Privacy Policy does not apply to the practices of companies that Clean Press does not own or control, or to individuals that Clean Press does not employ or manage.\n\n
+
+Collection of Your Information In order to access the Service, you will be required to register for a Clean Press account (an \"Account\"). You may register for an Account by (1) providing certain personally identifiable information (\"Personal Information\") such as, and as applicable, your name, e-mail address, addresses, telephone number, credit card information, and certain preferences, or (2) by allowing us to access your name and other profile information through existing accounts you may have on the social networking website Facebook (the \"FB Website\", and your FB Website profile, the \"FB Website Profile\"). It is your responsibility to give us current, complete, truthful and accurate information, including Personal Information, and to keep such information up to date. Clean Press will not be responsible for any problems or liability related to inaccurate or incomplete Personal Information, whether due to your failure to update such Personal Information or otherwise. If you register for an Account through the use of a FB Website Profile, in addition to providing us with certain Personal Information as we use the information you have already provided to the FB Website in registering for an account and which you have allowed the FB Website to share with Clean Press, including, but not limited to, your first name, your FB Website user profile picture, your friend\'s list, pages you are a fan of, your gender, and the networks to which you belong (collectively, your \"Submitted Information\").In addition to the Personal Information and Submitted Information, we may collect the following information you provide (collectively with Personal Information and Submitted Information, the \"Information\"):\n\n
+
+Information from publicly accessible sources, such as blogs and comments from other Users, certain standard browser information, such as your browser type, IP address, and access times, in using and/or accessing the Services, you expressly authorize us to collect and use your Information in connection with the Services. You further acknowledge and agree that Clean Press may, but is not obligated to, maintain copies of your Information indefinitely, or delete any or all Information, at our sole discretion. When you receive promotional e-mails or newsletters from Clean Press, if any, we may use customized links or similar technologies to determine whether such newsletters or e-mail has been opened and which links you click. This information is used to provide you more focused e-mail communications and/or other information.\n\n
+
+Use of Your Personal Information\n
+Clean Press collects and uses your Information to operate and improve the Site and the App and better deliver the Services. These uses may include performing analysis aimed at improving the Service; making the Site, the App or Services more user friendly by reducing the need for you to repeatedly enter the same information; and displaying advertising and content that are tailored to your preferences and interests. If you registered for an Account through your FB Website Profile, Clean Press will not knowingly use, display, or share any of your Information in a manner inconsistent with the privacy settings and policies of the FB Website (collectively, the \"FB Policies\") which you registered through (including, for Facebook accounts, Section 9 of Facebook\'s Statement of Rights and Responsibilities, currently accessible at http://www.facebook.com/terms.php).We advise you to carefully read the terms of use and FB Policies that you access the Services through. It is your responsibility to read and accept the respective FB Policies prior to accessing and using the Services. Clean Press may support the Site, the App and the Service by advertising, and accordingly, Clean Press may use some of the information collected in order to customize the advertisements to your interests and preferences. However, the process of selecting customized ads tailored to you will use data that does not personally identify you, such as using demographic data such as ZIP code. Clean Press may also use your Information to communicate with you, such as providing you with mandatory notices or discretionary notices about the Service. From time to time, Clean Press may also send you surveys or promotional mailings to inform you of other products or services available from Clean Press and its affiliates. Clean Press is headquartered in the United States of America. Information may be accessed by us or transferred to us in the United States or to our affiliates, business partners, or service providers elsewhere in the world. By providing us with Information, you consent to this transfer. We will protect the privacy and security of Information according to our Privacy Policy, regardless of where it is processed or stored.\n\n
+
+Disclosing of Your Personal Information to Third Parties\n
+Clean Press does not sell, rent, lease or disclose your Personal Information. Except as described in this Privacy Policy, your Personal Information will be used only by Clean Press and its controlled subsidiaries and affiliates, and your Personal Information will not be disclosed to any other third party without your consent. By accessing your Account, you may choose to share your Personal Information with select Clean Press partners so that they can contact you about their respective products, services or offers.\n\n
+
+Clean Press may hire other companies to provide limited administrative and communication services on Clean Press\' behalf, such as hosting Sites, the processing and delivery of mailings, providing customer support, or providing credit card processing services. Clean Press has the right to disclose your Personal Information to these third party companies for the purpose of administering and maintaining the Site and App\'s features, functions and operations. Those companies will be permitted to obtain only such Personal Information as necessary for them to deliver the respective services, and Clean Press does not authorize these companies to use your Personal Information except for the sole purpose of providing those services requested by Clean Press.\n\n
+
+You understand and agree that Clean Press may access and/or disclose Personal Information about you or your Account without your prior consent if Clean Press has a good faith belief that such action is necessary to: (i) comply with legal process or other legal requirements of any governmental authority; (ii) protect and defend the rights or property of Clean Press (including the enforcement of our agreements); (iii) enforce the Terms of Service, which can be accessed at [http://www.getcleanpress.com/conditions]; (v) operate or conduct maintenance and repair of the Site, the App or equipment as authorized by law; (vi) act in urgent circumstances to protect the personal safety of users of Clean Press Site, the App or members of the public; or (v) comply with a bankruptcy, merger, acquisition, transfer of control, joint venture of other business combination. Clean Press is not required to question or contest the validity of any search warrant, subpoena or other similar governmental request that we receive. In some cases, we may choose to buy or sell assets. In these types of transactions, user information is typically one of the business assets that is transferred. Moreover, if Clean Press, or substantially all of its assets, were acquired, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of Clean Press may continue to use your Information as set forth in this Privacy Policy.\n\n
+
+
+Security of Your Personal Information\n
+The Personal Information Clean Press collects is securely stored within our database, and we use standard, industry-wide practices such as firewalls, encryption, and (in certain areas) Secure Socket Layers (\"SSL\") for protecting your information. However, as effective as encryption technology is, no security system is impenetrable. Clean Press cannot guarantee the security of our database, nor can we guarantee that information you supply won\'t be intercepted while being transmitted to Clean Press over the Internet. Clean Press recommends that you not disclose your password to anyone.
+        \n\n
+
+Information Collected Automatically\n
+We may receive and store certain types of information whenever you interact with the Site, the App and/or Service. Clean Press may choose to automatically receive and record information on our server logs from your browser including your IP address, cookie information, and the page you requested. Clean Press uses \"cookies\" to collect non-personal data and information. Cookies are small text files a Site uses to recognize repeat users, and is typically placed on your hard disk by a web page server. Cookies contain information that can later be read by a web server in the domain that issued the cookie to you. The way cookies function is by assigning a number to the user that has no meaning outside of the assigning Site. You should be aware that Clean Press cannot control the use of cookies (or the resulting information) by Clean Press\'s third-party partners or advertisers. You have the ability to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to sign in or use other interactive features of the Site and Service that depend on cookies.
+        \n\n
+
+In addition, Clean Press may use third party analytics providers and products to obtain, compile and analyze Information about how Users are using and interacting with Clean Press and/or the Services. Clean Press may provide Information to these analytics providers for the purpose of obtaining statistics and other information about how users are using and interacting with Clean Press. These analytics providers may use a variety of established or new tracking technologies or tools (including, without limitation, cookies, web beacons, HTTP cache, local shared objects and persistent identifiers) to recognize your computer or device and/or to collect or compile this information. Clean Press has no control over the technologies, tools or practices of the third parties that providing analytics products and services to Clean Press.
+        \n\n
+
+Collection and Use of Children\'s Personal Information\n
+The Site, the App and the Services are intended for general audiences, and Clean Press does not knowingly collect any Personal Information from children. During the registration process for an account, Clean Press does collect age information, and if users identify themselves as under 13 years of age, Clean Press will block such users from providing personal information.\n\n
+
+E-mail Communications\n
+Upon registration for an Account or using the Services provided by Clean Press, we may send you daily or weekly e-mails. If you do not want to receive e-mail or other mail from us, please notify us by e-mail at [contact@getcleanpress.com] and include sufficient information for us to identify your account, including your name, email address and the specifics of your request. However, after you unsubscribe to cease receiving e-mails, Clean Press may still contact you via e-mail for administrative or informational purposes, including messages regarding the administration of your account and/or any services or events to which you have registered.
+        \n\n
+Advertisements Displayed by Third Parties\n
+Clean Press may allow third-party ad serving companies, including ad networks, to display advertisements on the Site. Ad serving companies may place a persistent cookie on your computer in order to recognize your computer each time they display an online advertisement to you, and as such, they may be able to compile information over time about whether you reviewed or clicked on advertisements they display. These companies may use this information to display targeted advertisements and may associate this information with your subsequent visits, purchases or other activities on participating advertisers\' Sites. Clean Press has no access to or control over cookies of these links to other Sites and organizations, nor does Clean Press have control over or access to cookies by Clean Press\'s third-party partners or advertisers. This Privacy Policy does not cover any use of Personal Information that a third-party advertiser or ad server may collect from you.
+        \n\n
+Questions or Comments Regarding this Privacy Policy\n
+Clean Press welcomes any questions or comments you may have regarding this Privacy Policy or if you do not understand any information about how we collect, maintain, use, or share your Personal Information. Any such questions or comments should be submitted via email to [contact@getcleanpress.com]. We will make every effort to resolve or answer your concern.
+￼
+    </string>
+
+    <string name="wash_fold">The price correspond to a one laundry bag          (15lbs aproximated per bag)</string>
+    <string-array name="Location">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="detergent">
+        <item>Scented</item>
+        <item>Unscented</item>
+    </string-array>
+    <string-array name="dress_shirt">
+        <item>Launder</item>
+        <item>Dry Cleaning</item>
+        <item>Cleanpress Choose</item>
+    </string-array>
+    <string-array name="starch">
+        <item>Light</item>
+        <item>Heavy</item>
+    </string-array>
+
+    <string name="title_activity_my_orders">My Orders</string>
+    <string name="title_activity_tutorials">Tutorials</string>
+    <string name="title_activity_edit_order_to_do">Edit Order</string>
+</resources>

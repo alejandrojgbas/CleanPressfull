@@ -1,0 +1,79 @@
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:background="#fff"
+        tools:context="cleanpress.cleanpress.About">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:background="#FFF"
+                android:text="Who We Are"
+                android:textSize="20sp"
+                android:textColor="#03E1ED"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Title"
+                />
+
+            <TextView
+                android:id="@+id/who_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/about"
+                android:layout_marginTop="0dp"
+                android:textColor="#9b9b9b"
+                android:visibility="visible"
+                android:gravity="center"
+                />
+
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/webView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                style="@style/TextViewsWithBackColor"
+                android:text="Tutorials"
+                android:id="@+id/tuto_btn"
+                android:layout_marginTop="15dp"
+                android:drawableRight="@drawable/arrow_right"
+                android:onClick="toTutorial"
+                />
+
+
+            <Button
+                style="@style/TextViewsWithBackColor"
+                android:id="@+id/terms_btn"
+                android:layout_marginTop="10dp"
+                android:text="Terms and Conditions"
+                android:onClick="toTerms"
+                android:drawableRight="@drawable/arrow_right"
+                />
+
+            <Button
+                style="@style/TextViewsWithBackColor"
+                android:id="@+id/wp_btn"
+                android:layout_marginTop="10dp"
+                android:text="Working Policy"
+                android:onClick="toPolicy"
+                android:drawableRight="@drawable/arrow_right"/>
+
+
+        </LinearLayout>
+    </ScrollView>

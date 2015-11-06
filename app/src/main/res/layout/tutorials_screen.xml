@@ -1,0 +1,86 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_welcome_tut4"
+    tools:context="cleanpress.cleanpress.Tutorials"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/Layout"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_open"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/tutorialPages"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp" />
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radio_group"
+            android:gravity="center"
+            android:layout_marginTop="48dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tut1"
+                android:onClick="showPage"
+                android:checked="true"
+                android:buttonTint="#fff"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tut2"
+                android:onClick="showPage"
+                android:layout_marginLeft="10dp"
+                android:buttonTint="#fff"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tut3"
+                android:onClick="showPage"
+                android:layout_marginLeft="10dp"
+                android:buttonTint="#fff"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tut4"
+                android:onClick="showPage"
+                android:layout_marginLeft="10dp"
+                android:buttonTint="#fff"
+                />
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:background="#00ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:id="@+id/btnSkip"
+            android:onClick="goBack"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#10bcc9"
+        android:textSize="16sp"
+        android:layout_marginTop="1dip"
+        />
+
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp"
+        android:maxLines="3"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Read More"
+        android:textColor="#ff35f591"
+        android:id="@+id/readmore"
+        android:textSize="14sp"
+        android:layout_gravity="right"
+        android:drawableRight="@drawable/arrow_green_down"
+        android:drawablePadding="10dp"
+        />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_height="wrap_content"
+    android:id="@+id/answerLay">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="#ff35f591"
+        android:id="@+id/answer"
+        android:text="Answer"
+        android:textSize="14sp"
+        android:layout_gravity="left"
+        />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Waiting for answer.."
+                android:id="@+id/text_answer"
+                android:textSize="14sp"
+                android:textColor="#444"
+                />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

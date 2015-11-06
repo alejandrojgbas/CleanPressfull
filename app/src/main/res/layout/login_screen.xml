@@ -1,0 +1,87 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popuplayoutPw"
+    android:foreground="@drawable/shape_window_dim"
+    >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="cleanpress.cleanpress.Login" >
+
+    <TextView
+        android:text="You click. We clean"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/Title"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#999999"
+        android:textColor="#444444"
+        android:textSize="18sp"
+        android:autoText="false"
+        android:id="@+id/logEmail"
+        android:layout_marginTop="40dp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#999999"
+        android:textColor="#444444"
+        android:textSize="18sp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        android:id="@+id/logPass"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="Forgot Password"
+        android:layout_gravity="end"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:id="@+id/forgotTitle"
+        android:paddingRight="10dp"
+        android:textSize="14dp"
+        android:clickable="true"
+        android:onClick="showPopupForgot"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/LoginApp"
+        android:textAllCaps="false"
+        android:text="Log In"
+        android:onClick="LoginApp"
+        android:background="#7fe68b"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="230dp"
+        />
+
+</LinearLayout>
+</ScrollView>
+</FrameLayout>

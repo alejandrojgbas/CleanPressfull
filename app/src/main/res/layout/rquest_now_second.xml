@@ -1,0 +1,202 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="cleanpress.cleanpress.RequestNowAddress"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Delivery Address"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#666"
+            android:id="@+id/title1"
+            />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+        <EditText
+            style="@style/EditTextSign"
+            android:inputType="textPostalAddress"
+            android:id="@+id/dAddress"
+            android:hint="Address*"
+            />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="-30dp"
+                    android:id="@+id/clear"
+                    android:onClick="clearText"
+                    android:src="@drawable/tracking_grey_circle"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="50dp"
+                android:hint="Unit/Suite*"
+                android:id="@+id/dCity"
+                android:inputType="number"
+                android:textColorHint="#999999"
+                android:textColor="#444444"
+                android:textSize="18sp"
+                android:ems="10"
+                />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="@drawable/white_buttons"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="50dp"
+                android:hint="Zipcode*"
+                android:paddingLeft="15dp"
+                android:textColorHint="#999999"
+                android:textColor="#444444"
+                android:textSize="18sp"
+                android:id="@+id/dZip"
+                android:inputType="number"
+                android:ems="10"
+                />
+        </LinearLayout>
+            <EditText
+                style="@style/EditTextSign"
+                android:hint="Special Notes"
+                android:id="@+id/specialNotes"
+                android:inputType="text"
+                />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="40dp"
+                android:text="This location is my:"
+                android:gravity="end"
+                android:textSize="14sp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:id="@+id/spinnerText"
+                />
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="40dp"
+                android:id="@+id/select_loc"
+                android:popupBackground="#fff" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#666666"
+            android:layout_marginTop="30dp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Location"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Confirm"
+            android:onClick="confirmOrder"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="Pickup Time"
+            android:layout_marginTop="20dp"
+            android:background="#03e1ed"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/title2"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="30dp"
+                android:id="@+id/Date"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:hint="Select date"
+                android:clickable="true"
+                android:onClick="setDate"
+                android:textColor="#444444"
+                />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:background="#444444"/>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="30dp"
+                android:id="@+id/Hour"
+                android:popupBackground="#fff"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:id="@+id/Day"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#c1c2c7"
+            android:text="Place Order"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            android:id="@+id/button"
+            android:enabled="false"
+            android:onClick="placeOrder"
+
+            />
+    </LinearLayout>
+
+</ScrollView>

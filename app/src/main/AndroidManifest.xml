@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cleanpress.cleanpress" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/android_icn"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/title_activity_welcome_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".WelcomeScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.WelcomeScreen" />
+        </activity>
+        <activity
+            android:name=".Sign"
+            android:label="@string/title_activity_sign"
+            android:parentActivityName=".WelcomeScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.WelcomeScreen" />
+        </activity>
+        <activity
+            android:name=".SignPayment"
+            android:label="@string/title_activity_sign_payment"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/title_activity_menu_screen"
+            android:parentActivityName=".Dashboard"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.Dashboard" />
+        </activity>
+        <activity
+            android:name=".ScheduleScreen"
+            android:label="@string/title_activity_schedule_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".PaymentMethod"
+            android:label="@string/title_activity_payment_method"
+            android:parentActivityName=".Dashboard"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.Dashboard" />
+        </activity>
+        <activity
+            android:name=".MyOrders"
+            android:label="@string/title_activity_orders"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Prices"
+            android:label="@string/title_activity_prices"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Support"
+            android:label="@string/title_activity_support"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Terms"
+            android:label="@string/title_activity_terms"
+            android:parentActivityName=".About"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.About" />
+        </activity>
+        <activity
+            android:name=".WorkingPolicy"
+            android:label="@string/title_activity_working_policy"
+            android:parentActivityName=".About"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.About" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".RequestNowLoc"
+            android:label="@string/title_activity_request_now_loc"
+            android:parentActivityName=".Dashboard"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.Dashboard" />
+        </activity>
+        <activity
+            android:name=".RequestNowAddress"
+            android:label="@string/title_activity_rquest_now_address"
+            android:parentActivityName=".RequestNowLoc"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.RequestNowLoc" />
+        </activity>
+        <activity
+            android:name=".RequestLater"
+            android:label="@string/title_activity_request_later"
+            android:parentActivityName=".Dashboard"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.Dashboard" />
+        </activity>
+        <activity
+            android:name=".OrderStatus"
+            android:label="@string/title_activity_order_status"
+            android:parentActivityName=".MyOrders"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MyOrders" />
+        </activity>
+        <activity
+            android:name=".Tutorials"
+            android:label="@string/title_activity_tutorials"
+            android:parentActivityName=".About"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.About" />
+        </activity>
+        <activity
+            android:name=".EditOrderToDo"
+            android:label="@string/title_activity_edit_order_to_do"
+            android:parentActivityName=".MyOrders" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cleanpress.cleanpress.MyOrders" />
+        </activity>
+    </application>
+
+</manifest>

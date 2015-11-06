@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff"
+    >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="A mail will be sent to your email."
+        android:gravity="center"
+        android:id="@+id/Message"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#444444"
+        android:textColorHint="#999999"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pwForgot"
+        android:textSize="18sp"
+        android:hint="Enter e-mail"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:background="#7fe68b"
+        android:textSize="18sp"
+        android:text="Ok"
+        android:textColor="#fff"
+        android:id="@+id/AcceptSend"/>
+
+        <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/address_button"
+        android:textSize="18sp"
+        android:text="Cancel"
+        android:textColor="#444"
+        android:id="@+id/CancelSend"/>
+
+</LinearLayout>
+
+</LinearLayout>

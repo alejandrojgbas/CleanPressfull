@@ -1,0 +1,129 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="cleanpress.cleanpress.Sign">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You click. We clean"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/titleSign"
+        android:layout_marginTop="20dp"
+        android:textColor="#444444"
+        />
+
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignName"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignLastname"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        />
+        <EditText
+            style="@style/EditTextSign"
+            android:id="@+id/SignPhone"
+            android:inputType="phone"
+            android:hint="Phone Number"
+            />
+        <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignEmail"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail"
+        />
+        <EditText
+            style="@style/EditTextSign"
+            android:id="@+id/SignPass"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/TTitle"
+            android:textColor="#333333"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/titleTerms"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:layout_marginTop="50dp"
+            android:onClick="showTerms"
+            />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.23"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/Terms"
+            android:textColor="#333333"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/TermsLink"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:onClick="showTerms"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:text="@string/Conditions"
+            android:textColor="#333333"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/PolicyLink"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:onClick="showPolicy"
+            />
+
+    </LinearLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:background="#c1c2c7"
+            android:id="@+id/bSign"
+            android:onClick="SignUp"
+            android:enabled="false"
+            />
+
+
+</LinearLayout>
+</ScrollView>
